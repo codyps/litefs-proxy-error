@@ -1,0 +1,10 @@
+[package]
+name = "litefs-proxy-error"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+axum = "*"
+tokio = { version = "*", features = ["full"] }
+tracing = "*"
+tracing-subscriber = { version = "*", features = ["fmt", "env-filter"] }
